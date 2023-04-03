@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="details.css">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form class="regform" onsubmit="return formValidation()">
+            
+                    <p><label>First Name: </label><input type="text" ></p>
+                    <p><label>Last Name: </label><input type="text" class="formip"></p>
+                    <p><label>E-Mail ID: </label><input type="email" class="formip"></p>
+                    <p><label>Phone Number: </label><input type="text" class="formip"></p>
+                    <p><label>Date of Birth: </label><input type="date" class="formip"></p>
+                    <p><label>Gender</label><ul>
+                        <input type="checkbox" class="formip"><label>Male</label><br>
+                        <input type="checkbox" class="formip"><label>Female</label></ul>
+                    </p>
+                    <label>Address line 1</label>
+                    <textarea cols="55" placeholder="Flat name, street name"></textarea>
+                    <br>
+                    <label>Address line 2</label>
+                    <textarea cols="55" placeholder="Area"></textarea>
+                    <p><label>City: </label><input type="text" class="formip"></p>
+                    <p><label>State: </label><input type="text" class="formip"></p>
+                    <p><label>Postal Code: </label><input type="number" class="formip"></p>
+                    <p><label>Country: <input type="text" class="formip"></label></p>
+        </form>
+        <button type="submit" onsubmit="display()">Login</button><a href="display.html"></a>
+        <script src="details.js" async defer></script>
+    </body>
+</html>
